@@ -2,6 +2,7 @@
 
  <?php
 
+//journalist's user information
 if(isset($_POST["submit"]) && $_POST["submit"]!="")
 {
 

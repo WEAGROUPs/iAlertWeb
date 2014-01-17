@@ -4,6 +4,7 @@
 
 $deleteid=$_GET['id'];
 
+//delete files where id is known
 $del="DELETE FROM comments WHERE id='$deleteid'";
 
 $res = mysql_query($del);

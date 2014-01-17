@@ -17,6 +17,7 @@ $fname=$_POST['fname'];
     $reg ="INSERT INTO users (fname,lname,job,email,password,phone_number) VALUES ('{$fname}','{$lname}',{$job},'{$email}','{$password}','{$phone}')";
 
 
+//Query scrpit to inform user that registration was successfull
 if(mysql_query($reg))
 {
 
